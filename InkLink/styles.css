@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust container width as needed */
+    margin: 300px; /* Center container horizontally */
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button 
+  {
+    width: calc(100% - 80px); /* Adjust width to fit container with padding */
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    display: inline-block;
+  }
+  
+  input[type="password"] {
+    margin-bottom: 22px; /* Add space between password field and login button */
+  }
+
+
+  button {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  
+  button:hover {
+    background-color: #357ae8;
+  }
+  
+  #message {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .signup-text {
+    color: rgba(255, 253, 253, 0.74); /* Set text color to white */
+  }
+  
+  .signup-link {
+    color: rgba(218, 213, 213, 0.773); /* Set anchor text color to white */
+    text-decoration: underline; /* Add underline to anchor text */
+  }
+  
+  .signup-link:hover {
+    color: #3897f0; /* Change anchor text color on hover */
+  }
+
+  .login-text {
+    color: #eadfdfb7; /* Set login text color to white */
+  }
+
+  .login-link {
+    color: rgba(218, 213, 213, 0.773); /* Set anchor text color to white */
+    text-decoration: underline; /* Add underline to anchor text */
+  }
+
+  .login-link:hover {
+    color: #3897f0 /* Change anchor text color on hover */
+
+  }
